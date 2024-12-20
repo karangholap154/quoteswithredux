@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
@@ -33,7 +32,14 @@ export const Home = () => {
         <h1 className="text-2xl font-bold mb-4">Quotes</h1>
         <div>
           {displayedQuotes.map((quote) => (
-            <div key={quote.id} className="mb-4 p-4 border border-gray-300 rounded-lg shadow-md bg-white">
+            <div
+              key={quote.id}
+              className="mb-4 p-4 border rounded-lg shadow-md"
+              style={{
+                backgroundColor: 'var(--background-color)', // Use CSS variable for background
+                borderColor: 'var(--text-color)', // Use CSS variable for border color
+              }}
+            >
               <p className="font-semibold text-lg">{quote.quote}</p>
               <p className="text-gray-600 text-sm">- {quote.author}</p>
             </div>
