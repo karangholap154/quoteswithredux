@@ -20,7 +20,7 @@ export const App = () => {
       <header className="flex justify-around p-4">
         <h1 className="text-xl font-bold">Quotes App</h1>
         <button onClick={toggleTheme} className="bg-gray-500 text-white px-4 py-2 rounded">
-          Toggle Theme
+          ChangeTheme
         </button>
       </header>
       <Routes>

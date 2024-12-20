@@ -26,7 +26,7 @@ export const Home = () => {
   return (
     <div className="flex flex-col h-screen">
       <div className="h-2/5">
-        <img src="src/assets/Motivation.jpg" alt="img" className="w-full h-full object-cover" />
+        <img src="https://img.freepik.com/free-photo/inspirational-words-collage_23-2150104539.jpg?t=st=1734679449~exp=1734683049~hmac=be0f5bfbba0c4f5d2f9a095257181ad048ce498ce1dfe1efda74049e775bdb02&w=1060" alt="img" className="w-full h-full object-cover" />
       </div>
       <div className="p-4 flex-1 overflow-y-auto">
         <h1 className="text-2xl font-bold mb-4">Quotes</h1>
